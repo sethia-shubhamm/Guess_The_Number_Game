@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mainContainer{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.game{
+    width: 500px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    background-color: white;
+    padding: 20px;
+    margin-left: 60px;
+}
+
+.line1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box{
+    display: flex;
+    margin-right: 10px;
+    width: 40px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.range{
+    display: flex;
+    margin-right: 10px;
+    width: 40px;
+    height: 30px;
+}
+
+.text{
+    margin-left: 5px;
+    width: 200px;
+    font-size: 25px;
+}
+
+.line2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.line3{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.line4 h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+.line5 p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.line6{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    width: 120px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.line7 p{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.line8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line8 button{
+    width: 165px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.line9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.line9 button{
+    margin: 20px;
+    width: 165px;
+    height: 45px;
+    font-size: 20px;
+}
+
+input{
+    -webkit-appearance: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .logo{
+        display: none;
+    }
+  }
